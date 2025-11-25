@@ -146,4 +146,4 @@ def predict_diabetes():
 # if __name__ == '__main__': memastikan kode ini hanya dijalankan jika file ini dieksekusi langsung
 # (tidak dijalankan jika file ini diimpor sebagai module)
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=5000)  # debug=True memberikan informasi error yang detail dan auto-reload saat development
+    app.run(debug=True)  # debug=True memberikan informasi error yang detail dan auto-reload saat development
